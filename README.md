@@ -79,3 +79,12 @@ assets/
 preservation/
   UOT-original.zip    # pacote original recebido, preservado integralmente
 ```
+
+
+## Ajuste de movimento e zoom (novembro de 2026)
+
+A versão atual sincroniza a escala do cenário e do UFO por uma curva de profundidade compartilhada. O UFO percorre a tela em ritmo mais rápido; a aproximação e o afastamento passam por suavização para evitar saltos de escala. O fundo 118 acompanha o mesmo zoom e também recebe deriva/paralaxe da câmera virtual, portanto não fica travado.
+
+No iPhone, a câmera virtual combina eventos `deviceorientation` (orientação/giroscópio do navegador) com `devicemotion` (aceleração), compensa a rotação da tela e filtra os movimentos para reduzir tremulação sem criar atraso excessivo. O Safari exige HTTPS e autorização explícita quando solicitado.
+
+A trajetória e os tempos são ajustes de reconstrução observacional, não parâmetros originais recuperados do executável Clickteam.
