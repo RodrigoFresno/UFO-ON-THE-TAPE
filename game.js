@@ -8,28 +8,62 @@ const clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),wrap=a=>((a+540)%360)-180;
 const ease=(a,b,dt,k)=>a+(b-a)*(1-Math.exp(-k*dt));
 const s={started:false,muted:false,w:innerWidth,h:innerHeight,dpr:1,yaw:0,pitch:0,tyaw:0,tpitch:0,
 t:0,last:performance.now(),base:null,angle:0,drag:false,lastPoint:null,audio:null,audioStarted:false,
-zoom:1,depth:.5,ax:0,ay:0,tax:0,tay:0};
+zoom:1,depth:.5,ax:0,ay:0,tax:0,tay:0,chaseX:0,chaseY:0,shakeX:0,shakeY:0};
 function resize(){s.w=innerWidth;s.h=innerHeight;s.dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(s.w*s.dpr);canvas.height=Math.round(s.h*s.dpr);canvas.style.width=s.w+'px';canvas.style.height=s.h+'px';ctx.setTransform(s.dpr,0,0,s.dpr,0,0);s.angle=(screen.orientation&&screen.orientation.angle)||window.orientation||0;}
 addEventListener('resize',resize,{passive:true});if(screen.orientation)screen.orientation.addEventListener('change',resize);resize();
 function cover(im,w,h,z,ox,oy){if(!im)return;const k=Math.max(w/im.width,h/im.height)*z,dw=im.width*k,dh=im.height*k;ctx.drawImage(im,(w-dw)/2+ox,(h-dh)/2+oy,dw,dh);}
 function world(t,dt){
  const w=s.w,h=s.h,sky=ready(118);ctx.fillStyle='#6f91ae';ctx.fillRect(0,0,w,h);
- // Flight path and zoom are one shared depth animation: faster movement, slower optical easing.
- const f=t*1.55,xp=.5+.31*Math.sin(f*.72)+.13*Math.sin(f*1.63+.7),yp=.48+.22*Math.sin(f*.91+1.1)+.055*Math.cos(f*.43);
- const d=.5+.5*Math.sin(f*.48-.5);s.depth=ease(s.depth,d,dt,2.0);
- const zTarget=.94+(.5+.5*Math.sin(f*.48-.5))*.34;s.zoom=ease(s.zoom,zTarget,dt,1.15);
- const dx=Math.sin(t*.17)*w*.009+Math.sin(t*.51)*w*.002,dy=Math.cos(t*.13)*h*.008+Math.sin(t*.39)*h*.002;
- const cx=s.yaw*w*.39+dx+s.ax*w*.018,cy=s.pitch*h*.34+dy+s.ay*h*.014;
- if(sky){const breath=1+.018*Math.sin(t*.31)+.008*Math.sin(t*.77+.8);cover(sky,w,h,s.zoom*breath,cx,cy);}
- // Source frames are different resolutions of the same original UFO; normalize display size
- // so switching resolution frames does not cause abrupt, uncontrolled zoom jumps.
+ // The UFO follows a moving flight path. The virtual camera actively chases it,
+ // with a small amount of lag so the player feels like they are trying to keep it framed.
+ const f=t*1.55;
+ const xp=.5+.31*Math.sin(f*.72)+.13*Math.sin(f*1.63+.7);
+ const yp=.48+.22*Math.sin(f*.91+1.1)+.055*Math.cos(f*.43);
+ const d=.5+.5*Math.sin(f*.48-.5);
+ s.depth=ease(s.depth,d,dt,1.65);
+ // Repeated optical search: zoom in, hold briefly, then pull back. The range is
+ // deliberately gentle; the camera movement, UFO scale and car/window layer share it.
+ const pulse=.5+.5*Math.sin(t*.57-.65);
+ const zTarget=1.015+.37*pulse+.10*s.depth;
+ s.zoom=ease(s.zoom,zTarget,dt,1.05);
+ // Camera tracks the craft with a soft follow delay instead of letting it drift away.
+ const targetX=(xp-.5)*w*.70,targetY=(yp-.5)*h*.70;
+ s.chaseX=ease(s.chaseX,targetX,dt,1.8);
+ s.chaseY=ease(s.chaseY,targetY,dt,1.8);
+ const driftX=Math.sin(t*.17)*w*.006+Math.sin(t*.51)*w*.002;
+ const driftY=Math.cos(t*.13)*h*.005+Math.sin(t*.39)*h*.002;
+ const manualX=s.yaw*w*.27+s.ax*w*.014;
+ const manualY=s.pitch*h*.25+s.ay*h*.012;
+ // Handheld correction becomes stronger while the UFO is far from the center.
+ const errorX=targetX-s.chaseX,errorY=targetY-s.chaseY;
+ s.shakeX=ease(s.shakeX,Math.sin(t*8.2)*Math.min(8,Math.abs(errorX)*.025),dt,4.2);
+ s.shakeY=ease(s.shakeY,Math.cos(t*7.4)*Math.min(7,Math.abs(errorY)*.025),dt,4.2);
+ const cx=s.chaseX+manualX+driftX+s.shakeX;
+ const cy=s.chaseY+manualY+driftY+s.shakeY;
+ const lens=s.zoom*(1+.012*Math.sin(t*.31)+.006*Math.sin(t*.77+.8));
+ if(sky)cover(sky,w,h,lens,cx,cy);
+ // Keep the recovered UFO art crisp while matching the camera's optical zoom.
  const frame=5+Math.round(s.depth*44),ufo=ready(frame)||ready(49)||ready(6);
- if(ufo){const base=Math.min(w*.19,150),scale=.72+s.depth*.72,width=base*scale*s.zoom,ht=width*ufo.height/ufo.width;
- const wx=(xp-.5)*w,wy=(yp-.5)*h,ux=w/2+(wx-s.yaw*w*.39)*s.zoom+dx*.35,uy=h/2+(wy+s.pitch*h*.34)*s.zoom+dy*.35;
- ctx.save();ctx.translate(ux,uy);ctx.rotate(.012*Math.sin(f*.9));ctx.globalAlpha=.97;ctx.drawImage(ufo,-width/2,-ht/2,width,ht);ctx.restore();}
+ if(ufo){
+   const base=Math.min(w*.145,116),scale=.72+s.depth*1.30;
+   const width=base*scale*s.zoom,ht=width*ufo.height/ufo.width;
+   const worldX=(xp-.5)*w,worldY=(yp-.5)*h;
+   const ux=w/2+(worldX-s.chaseX-manualX)*s.zoom+driftX*.25;
+   const uy=h/2+(worldY-s.chaseY-manualY)*s.zoom+driftY*.25;
+   ctx.save();ctx.translate(ux,uy);ctx.rotate(.018*Math.sin(f*.9));ctx.globalAlpha=.98;
+   ctx.drawImage(ufo,-width/2,-ht/2,width,ht);ctx.restore();
+ }
+ // Original car/windshield foreground is not a frozen overlay: it breathes with
+ // the same optical zoom and follows camera corrections with a slight foreground parallax.
+ const car=ready(0);
+ if(car){
+   ctx.save();ctx.globalAlpha=.48;
+   const carZoom=.94+(s.zoom-1)*.72;
+   cover(car,w,h,carZoom,cx*.12,cy*.12);
+   ctx.restore();
+ }
  const ids=[7,10,11,12,13],noise=ready(ids[Math.floor(t*5.5)%ids.length]);
- if(noise){ctx.save();ctx.globalAlpha=.018;ctx.globalCompositeOperation='screen';ctx.drawImage(noise,0,0,w,h);ctx.restore();}
- const frameOverlay=ready(0);if(frameOverlay){ctx.save();ctx.globalAlpha=.52;cover(frameOverlay,w,h,1,0,0);ctx.restore();}
+ if(noise){ctx.save();ctx.globalAlpha=.014;ctx.globalCompositeOperation='screen';ctx.drawImage(noise,0,0,w,h);ctx.restore();}
 }
 function intro(){const sky=ready(118);if(sky)cover(sky,s.w,s.h,1.04,0,0);ctx.fillStyle='rgba(0,0,0,.28)';ctx.fillRect(0,0,s.w,s.h);}
 function render(now){const dt=Math.min(.05,(now-s.last)/1000);s.last=now;if(s.started){s.t+=dt;s.yaw=ease(s.yaw,s.tyaw,dt,11.5);s.pitch=ease(s.pitch,s.tpitch,dt,11.5);s.ax=ease(s.ax,s.tax,dt,5.5);s.ay=ease(s.ay,s.tay,dt,5.5);world(s.t,dt);$('clock').textContent=new Date(s.t*1000).toISOString().slice(11,19);$('status').textContent=Math.abs(s.yaw)<.12&&Math.abs(s.pitch)<.12?'PROCURANDO UFO':'ACOMPANHANDO UFO';}else intro();requestAnimationFrame(render);}
