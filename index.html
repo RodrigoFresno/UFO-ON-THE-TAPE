@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#101820">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>THE TAPE — UFO-ON-THE-TAPE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="stage" aria-label="The Tape — simulação de filmagem">
+  <canvas id="game"></canvas>
+  <div class="vignette"></div><div class="scanlines"></div>
+  <div id="rec" class="rec hidden"><i></i> REC <span id="clock">00:00:00</span></div>
+  <section id="intro" class="screen">
+    <div class="intro-content">
+      <div class="archive-label">A RECOVERED GAME EXPERIENCE</div>
+      <button id="play" class="tape-button" aria-label="Iniciar The Tape">
+        <img src="assets/images/82.png" alt="Fita The Tape original extraída do jogo">
+        <span>TOQUE NA FITA PARA INICIAR</span>
+      </button>
+      <div class="intro-title">THE TAPE</div>
+      <div class="intro-subtitle">UFO-ON-THE-TAPE</div>
+      <p>Procure o objeto. Mantenha-o no enquadramento.</p>
+    </div>
+  </section>
+  <section id="permission" class="screen hidden">
+    <div class="panel">
+      <div class="small-label">CONTROLE DE MOVIMENTO</div>
+      <h2>Calibrar a câmera virtual</h2>
+      <p>Autorize os sensores de movimento para olhar ao redor inclinando e girando o iPhone. O jogo usa apenas o cenário e as imagens originais — <strong>não utiliza a câmera real</strong>.</p>
+      <button id="enableMotion">ATIVAR GIROSCÓPIO</button>
+      <button class="secondary" id="noMotion">CONTINUAR SEM SENSOR</button>
+      <small>O Safari pode solicitar autorização após tocar no botão. Requer HTTPS para sensores no iPhone.</small>
+    </div>
+  </section>
+  <div id="hud" class="hud hidden">
+    <span id="status">PROCURANDO UFO</span><span class="control-hint">MOUSE / MOVIMENTO</span>
+    <button id="recenter" title="Recentralizar" aria-label="Recentralizar">◎</button>
+    <button id="sound" title="Som" aria-label="Som">♪</button>
+    <button id="exit" title="Voltar" aria-label="Voltar">×</button>
+  </div>
+  <div id="toast" class="toast"></div>
+</main>
+<script src="game.js"></script>
+</body>
+</html>

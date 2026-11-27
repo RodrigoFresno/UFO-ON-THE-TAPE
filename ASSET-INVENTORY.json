@@ -1,0 +1,1273 @@
+{
+  "source_archive": "UOT (1).zip",
+  "image_count": 126,
+  "audio_original_count": 10,
+  "audio_browser_conversions": 10,
+  "images": [
+    {
+      "file": "assets/images/0.png",
+      "width": 4600,
+      "height": 3100,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 16896768,
+      "role": "Moldura/primeiro plano RGBA com grande área transparente; possível enquadramento de janela/filmagem."
+    },
+    {
+      "file": "assets/images/1.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 191,
+      "alpha_max": 255,
+      "bytes": 329,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/3.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 246,
+      "bytes": 4775767,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/4.png",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 120,
+      "role": "Ícone de interface."
+    },
+    {
+      "file": "assets/images/5.png",
+      "width": 20,
+      "height": 7,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 597,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/6.png",
+      "width": 190,
+      "height": 64,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 23312,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/7.png",
+      "width": 320,
+      "height": 240,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 161645,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/9.png",
+      "width": 30,
+      "height": 10,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 1088,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/10.png",
+      "width": 320,
+      "height": 240,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 161107,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/11.png",
+      "width": 320,
+      "height": 240,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 159615,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/12.png",
+      "width": 320,
+      "height": 240,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 160784,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/13.png",
+      "width": 320,
+      "height": 240,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 158550,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/14.png",
+      "width": 40,
+      "height": 13,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 1724,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/15.png",
+      "width": 50,
+      "height": 17,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 2572,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/16.png",
+      "width": 60,
+      "height": 20,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 3513,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/17.png",
+      "width": 70,
+      "height": 24,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 4684,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/18.png",
+      "width": 80,
+      "height": 27,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 5901,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/19.png",
+      "width": 90,
+      "height": 30,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 7169,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/20.png",
+      "width": 100,
+      "height": 34,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 8856,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/21.png",
+      "width": 110,
+      "height": 37,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 10422,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/22.png",
+      "width": 120,
+      "height": 40,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 12126,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/23.png",
+      "width": 130,
+      "height": 44,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 14186,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/24.png",
+      "width": 140,
+      "height": 47,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 16177,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/25.png",
+      "width": 150,
+      "height": 51,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 18368,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/26.png",
+      "width": 160,
+      "height": 54,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 20502,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/27.png",
+      "width": 170,
+      "height": 57,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 22760,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/28.png",
+      "width": 180,
+      "height": 61,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 25355,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/29.png",
+      "width": 200,
+      "height": 67,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 30218,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/30.png",
+      "width": 220,
+      "height": 74,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 36117,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/31.png",
+      "width": 240,
+      "height": 81,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 42674,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/32.png",
+      "width": 260,
+      "height": 88,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 49538,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/33.png",
+      "width": 280,
+      "height": 95,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 56952,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/34.png",
+      "width": 300,
+      "height": 102,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 64541,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/35.png",
+      "width": 320,
+      "height": 109,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 72551,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/36.png",
+      "width": 340,
+      "height": 116,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 80931,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/37.png",
+      "width": 360,
+      "height": 123,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 89778,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/38.png",
+      "width": 380,
+      "height": 130,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 98846,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/39.png",
+      "width": 400,
+      "height": 137,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 108396,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/40.png",
+      "width": 420,
+      "height": 144,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 117944,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/41.png",
+      "width": 440,
+      "height": 151,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 127832,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/42.png",
+      "width": 460,
+      "height": 158,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 137936,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/43.png",
+      "width": 480,
+      "height": 165,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 148486,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/44.png",
+      "width": 500,
+      "height": 172,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 159002,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/45.png",
+      "width": 520,
+      "height": 179,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 169889,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/46.png",
+      "width": 540,
+      "height": 186,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 181109,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/47.png",
+      "width": 560,
+      "height": 193,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 191818,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/48.png",
+      "width": 580,
+      "height": 200,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 203302,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/49.png",
+      "width": 600,
+      "height": 207,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 215077,
+      "role": "Sequência do UFO com dimensões progressivamente maiores; provável escala/distância."
+    },
+    {
+      "file": "assets/images/50.png",
+      "width": 80,
+      "height": 89,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "bytes": 3983,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/52.png",
+      "width": 330,
+      "height": 250,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 918,
+      "role": "Moldura de enquadramento/HUD com indicador vermelho."
+    },
+    {
+      "file": "assets/images/53.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 440,
+      "role": "Recurso visual preservado; função não confirmada."
+    },
+    {
+      "file": "assets/images/54.png",
+      "width": 1349,
+      "height": 1491,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 1196837,
+      "role": "Recurso visual preservado; função não confirmada."
+    },
+    {
+      "file": "assets/images/55.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "bytes": 5545613,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/56.png",
+      "width": 330,
+      "height": 250,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 854,
+      "role": "Moldura de enquadramento/HUD com indicador vermelho."
+    },
+    {
+      "file": "assets/images/57.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 4276026,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/58.png",
+      "width": 34,
+      "height": 14,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 129,
+      "role": "Ícone de bateria/HUD."
+    },
+    {
+      "file": "assets/images/60.png",
+      "width": 34,
+      "height": 14,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 129,
+      "role": "Ícone de bateria/HUD."
+    },
+    {
+      "file": "assets/images/62.png",
+      "width": 34,
+      "height": 14,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 125,
+      "role": "Ícone de bateria/HUD."
+    },
+    {
+      "file": "assets/images/63.png",
+      "width": 34,
+      "height": 14,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 118,
+      "role": "Ícone de bateria/HUD."
+    },
+    {
+      "file": "assets/images/64.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "bytes": 2440392,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/65.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 6468331,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/66.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 4718921,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/67.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 318781,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/68.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 778203,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/69.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 398340,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/70.png",
+      "width": 1349,
+      "height": 1491,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 1088501,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/71.png",
+      "width": 1349,
+      "height": 1491,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 394123,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/72.png",
+      "width": 1349,
+      "height": 1491,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 1145865,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/73.png",
+      "width": 1349,
+      "height": 1491,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 574316,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/74.png",
+      "width": 1349,
+      "height": 1491,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 650473,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/75.png",
+      "width": 1349,
+      "height": 1491,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 538319,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/76.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 1297729,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/78.png",
+      "width": 80,
+      "height": 89,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "bytes": 3741,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/80.png",
+      "width": 200,
+      "height": 20,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 303,
+      "role": "Texto/crédito/interface."
+    },
+    {
+      "file": "assets/images/81.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "bytes": 242,
+      "role": "Ícone de interface."
+    },
+    {
+      "file": "assets/images/82.png",
+      "width": 300,
+      "height": 225,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 51385,
+      "role": "Fita original “UFO on Tape”; recurso da tela de entrada."
+    },
+    {
+      "file": "assets/images/83.png",
+      "width": 80,
+      "height": 89,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "bytes": 3566,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/84.png",
+      "width": 80,
+      "height": 89,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "bytes": 4072,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/85.png",
+      "width": 80,
+      "height": 89,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 251,
+      "bytes": 3883,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/86.png",
+      "width": 80,
+      "height": 89,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 245,
+      "bytes": 3401,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/87.png",
+      "width": 60,
+      "height": 67,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 253,
+      "bytes": 2658,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/88.png",
+      "width": 60,
+      "height": 67,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 250,
+      "bytes": 2572,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/89.png",
+      "width": 60,
+      "height": 67,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "bytes": 2347,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/90.png",
+      "width": 60,
+      "height": 67,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 248,
+      "bytes": 2702,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/91.png",
+      "width": 60,
+      "height": 67,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 247,
+      "bytes": 2559,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/92.png",
+      "width": 60,
+      "height": 67,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 237,
+      "bytes": 2257,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/93.png",
+      "width": 40,
+      "height": 45,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 242,
+      "bytes": 1528,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/94.png",
+      "width": 40,
+      "height": 45,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 234,
+      "bytes": 1520,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/95.png",
+      "width": 40,
+      "height": 45,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 241,
+      "bytes": 1438,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/96.png",
+      "width": 40,
+      "height": 45,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 235,
+      "bytes": 1606,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/97.png",
+      "width": 40,
+      "height": 45,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 229,
+      "bytes": 1519,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/98.png",
+      "width": 40,
+      "height": 45,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 213,
+      "bytes": 1381,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/99.png",
+      "width": 20,
+      "height": 23,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 250,
+      "bytes": 555,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/100.png",
+      "width": 20,
+      "height": 23,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 244,
+      "bytes": 559,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/101.png",
+      "width": 20,
+      "height": 23,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 250,
+      "bytes": 509,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/102.png",
+      "width": 20,
+      "height": 23,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 245,
+      "bytes": 561,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/103.png",
+      "width": 20,
+      "height": 23,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 241,
+      "bytes": 551,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/104.png",
+      "width": 20,
+      "height": 23,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 228,
+      "bytes": 506,
+      "role": "Silhueta borrada de objeto voador; possível variação ou sequência, função exata não confirmada."
+    },
+    {
+      "file": "assets/images/107.png",
+      "width": 200,
+      "height": 32,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 516,
+      "role": "Texto/crédito/interface."
+    },
+    {
+      "file": "assets/images/109.png",
+      "width": 200,
+      "height": 100,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 1055,
+      "role": "Texto/crédito/interface."
+    },
+    {
+      "file": "assets/images/110.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "bytes": 123,
+      "role": "Ícone de interface."
+    },
+    {
+      "file": "assets/images/111.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "bytes": 180,
+      "role": "Ícone de interface."
+    },
+    {
+      "file": "assets/images/112.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "bytes": 173,
+      "role": "Ícone de interface."
+    },
+    {
+      "file": "assets/images/113.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "bytes": 407,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/114.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 159,
+      "alpha_max": 255,
+      "bytes": 326,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/115.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 127,
+      "alpha_max": 255,
+      "bytes": 328,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/116.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 95,
+      "alpha_max": 255,
+      "bytes": 327,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/117.png",
+      "width": 2640,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 303267,
+      "role": "Recorte ambiental com transparência (vegetação, edifícios, postes ou estruturas); posição original não recuperada."
+    },
+    {
+      "file": "assets/images/118.png",
+      "width": 4500,
+      "height": 3000,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "bytes": 5357003,
+      "role": "Placa fotográfica completa: céu, nuvens, sol e cidade distante; fundo principal recuperado."
+    },
+    {
+      "file": "assets/images/119.png",
+      "width": 493,
+      "height": 493,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "bytes": 40361,
+      "role": "Brilho circular radial; provável efeito de luz/lens flare."
+    },
+    {
+      "file": "assets/images/120.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 63,
+      "alpha_max": 255,
+      "bytes": 327,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/121.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 215,
+      "alpha_max": 255,
+      "bytes": 413,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/122.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 31,
+      "alpha_max": 31,
+      "bytes": 409,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/123.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 215,
+      "alpha_max": 255,
+      "bytes": 394,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/124.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 215,
+      "alpha_max": 255,
+      "bytes": 400,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/125.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 191,
+      "alpha_max": 255,
+      "bytes": 418,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/126.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 159,
+      "alpha_max": 255,
+      "bytes": 333,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/127.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 159,
+      "alpha_max": 255,
+      "bytes": 327,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/128.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 175,
+      "alpha_max": 255,
+      "bytes": 343,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/129.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 159,
+      "alpha_max": 255,
+      "bytes": 332,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/130.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 127,
+      "alpha_max": 255,
+      "bytes": 327,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/131.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 95,
+      "alpha_max": 255,
+      "bytes": 332,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/132.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 119,
+      "alpha_max": 255,
+      "bytes": 335,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/133.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 31,
+      "alpha_max": 255,
+      "bytes": 329,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/134.png",
+      "width": 50,
+      "height": 300,
+      "mode": "RGBA",
+      "alpha_min": 31,
+      "alpha_max": 255,
+      "bytes": 327,
+      "role": "Elemento gráfico estreito/vertical; possível detalhe de interface ou efeito, função não confirmada."
+    },
+    {
+      "file": "assets/images/135.png",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "bytes": 164,
+      "role": "Ícone de interface."
+    }
+  ],
+  "notes": [
+    "Classificações visuais baseadas nas imagens extraídas; não equivalem à recuperação do layout Clickteam.",
+    "PNG 118 é a placa completa de céu/cidade.",
+    "PNG 5–49 formam uma progressão dimensional clara do mesmo sprite de UFO."
+  ]
+}
